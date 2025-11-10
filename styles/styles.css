@@ -127,29 +127,28 @@ footer {
     min-width: 100%;
     justify-self: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(22, 11, 25, 0.8),
-            rgba(22, 11, 25, 0.9));
+    background-image: linear-gradient(rgba(22, 11, 25, 0.9),
+            rgba(22, 11, 25, 0.95));
 
     p {
         max-width: 60%;
     }
-
 }
 
 .links {
     display: flex;
-    height: 10%;
+    height: 33%;
     width: 100%;
     justify-self: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(22, 11, 25, 0.9),
+    background-image: linear-gradient(rgba(22, 11, 25, 0.95),
             rgba(22, 11, 25, 1));
 }
 
 .empty-div {
-    height: 80%;
+    height: 57%;
     background-image: linear-gradient(rgba(22, 11, 25, 0),
-            rgba(22, 11, 25, 0.8));
+            rgba(22, 11, 25, 0.9));
 }
 
 .button:hover {
