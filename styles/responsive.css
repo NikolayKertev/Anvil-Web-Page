@@ -1,0 +1,97 @@
+@media (width >=1100px) {
+    .button:hover {
+        background-color: rgba(255, 255, 255, 1);
+        color: #160b19;
+        box-shadow: 0 0 1em white;
+    }
+
+    .main-logo:hover {
+        transform: scale(105%);
+    }
+
+    .logo:hover {
+        transform: scale(110%);
+    }
+
+    .spreadsheet-img {
+        img:hover {
+            transform: scale(105%);
+            box-shadow: 0px 0px 0.5em 0.1em white;
+        }
+    }
+
+    .yt-video:hover {
+        filter: grayscale(0%) brightness(100%);
+        box-shadow: 0px 0px 0.3em 0.05em #ffffff;
+        transform: scale(102%);
+    }
+}
+
+@media (width < 1100px) AND (height <=800px) {
+    html {
+        font-size: 13px;
+    }
+
+    .spreadsheet-container {
+        width: 90%;
+    }
+}
+
+@media (width <=1050px) {
+    html {
+        font-size: 16px;
+    }
+
+    .video-container {
+        width: 80%;
+
+        .yt-video {
+            width: 100%;
+            height: 24em;
+        }
+    }
+
+    .empty-div {
+        flex-direction: column;
+        gap: 2em;
+
+        .spreadsheet-img img {
+            width: 100%;
+        }
+    }
+
+    .spreadsheet-container {
+        width: 90%;
+    }
+}
+
+
+@media (width <=800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (width <=600px) {
+    html {
+        font-size: 10px;
+    }
+
+    .empty-div {
+        min-height: 70%;
+    }
+
+    .description {
+        height: 20%;
+
+        p {
+            max-width: 80%;
+        }
+    }
+}
+
+@media (width <=400px) {
+    html {
+        font-size: 8px;
+    }
+}
